@@ -1,34 +1,34 @@
 <?php
 class Name{
-	private $__firstname;
-	private $__middletname;
-	private $__lastname;
+	private $firstname;
+	private $middletname;
+	private $lastname;
 
 	public function setFirstName($firstname){
-		$this->__firstname = $firstname;
+		$this->firstname = $firstname;
 	}
 
 	public function setMiddleName($middletname){
-		$this->__middletname = $middletname;
+		$this->middletname = $middletname;
 	}
 
 	public function setLastName($lastname){
-		$this->__lastname = $lastname;
+		$this->lastname = $lastname;
 	}
 
 	public function getFirstName(){
-		return $this->__firstname;
+		return $this->firstname;
 	}
 
 	public function getMiddleName(){
-		return $this->__middletname;
+		return $this->middletname;
 	}
 
 	public function getLastName(){
-		return $this->__lastname;
+		return $this->lastname;
 	}
 }
-	 	 
+
 # Set variables
 $name = new Name();
 $name->setFirstName("Ken Dan");
@@ -36,4 +36,4 @@ $name->setMiddleName("S.");
 $name->setLastName("Tinio");
 
 # Display the values
-echo $name->getFirstName().' '.$name->getMiddleName().' '.$name->getLastName();
+echo $name->getFirstName().' '.$name->getMiddleName().' '.$name->getLastName()."\n";
