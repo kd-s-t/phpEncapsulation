@@ -1,5 +1,5 @@
 # PHP Encapsulation  
-### python v3.7.1  
+### PHP 7.2.4  
 
 # Operations  
 
@@ -10,5 +10,5 @@
   
 # Usage  
 ```
-python Encapsulation.py  
+php Encapsulation.py  
 ```
