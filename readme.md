@@ -10,5 +10,5 @@
   
 # Usage  
 ```
-php Encapsulation.py  
+php Encapsulation.php  
 ```
