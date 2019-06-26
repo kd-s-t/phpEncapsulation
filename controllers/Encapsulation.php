@@ -28,12 +28,3 @@ class Name{
 		return $this->__lastname;
 	}
 }
-	 	 
-# Set variables
-$name = new Name();
-$name->setFirstName("Ken Dan");
-$name->setMiddleName("S.");
-$name->setLastName("Tinio");
-
-# Display the values
-echo $name->getFirstName().' '.$name->getMiddleName().' '.$name->getLastName();
